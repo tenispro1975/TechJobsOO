@@ -10,6 +10,7 @@
         public Location Location { get; set; }
         public CoreCompetency CoreCompetency { get; set; }
         public PositionType PositionType { get; set; }
+        public static string ViewModel { get; internal set; }
 
         public Job()
         {
